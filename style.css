@@ -1,0 +1,43 @@
+* {
+	background-color: black;
+	font-family: "Monaco",monospace;
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+div#cronometer {
+	color: white;
+	font-size: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+span.letter {
+	display: inline-block;
+  	transform: skew(20deg,10deg);
+ }
+div#cronometer{
+	width: 200px;
+	height: 121px;
+	overflow: hidden;
+	font-size: 100px;
+}
+div#cronometer div{
+	float: right;
+	position: relative;
+}
+div#cronometer div ul {
+	position: relative;
+	transition: top 0.5s;
+	top: 0;
+}
+div#cronometer div ul li {
+	list-style-type: none;
+	background-color: white;
+	color: black;
+	border-top: 2px solid black;
+	border-left: 2px solid black ;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+}
