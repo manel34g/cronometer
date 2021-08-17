@@ -5,24 +5,28 @@
 	margin: 0;
 	border: none;
 }
+
 div#cronometer {
 	color: white;
 	font-size: 40px;
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top: 49%;
+	left: 49%;
 	transform: translate(-50%,-50%);
+}
+div#cronometer{
+	width: 118px;
+	height: 121px;
+	overflow: hidden;
+	font-size: 100px;
+	border: 1px solid red;
+
 }
 span.letter {
 	display: inline-block;
   	transform: skew(20deg,10deg);
  }
-div#cronometer{
-	width: 200px;
-	height: 121px;
-	overflow: hidden;
-	font-size: 100px;
-}
+
 div#cronometer div{
 	float: right;
 	position: relative;
